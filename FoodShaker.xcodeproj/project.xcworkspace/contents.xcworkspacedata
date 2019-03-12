@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:KitchenDelice.xcodeproj">
+      location = "self:/Users/enzosan/Dropbox (iOSDA-IT)/Progetti Xcode/KitchenDelice/FoodShaker.xcodeproj">
    </FileRef>
 </Workspace>

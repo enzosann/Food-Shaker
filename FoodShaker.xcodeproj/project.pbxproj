@@ -14,6 +14,8 @@
 		A41A3A562231360D000A212C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41A3A542231360D000A212C /* LaunchScreen.storyboard */; };
 		A41A3A612231360E000A212C /* KitchenDeliceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A3A602231360E000A212C /* KitchenDeliceTests.swift */; };
 		A41A3A6C2231360E000A212C /* KitchenDeliceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A3A6B2231360E000A212C /* KitchenDeliceUITests.swift */; };
+		A41A3A7A223136DD000A212C /* DragNDropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A3A79223136DD000A212C /* DragNDropViewController.swift */; };
+		A41A3A7C223138AB000A212C /* DragNDropCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A3A7B223138AB000A212C /* DragNDropCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +36,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A41A3A482231360C000A212C /* KitchenDelice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenDelice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41A3A482231360C000A212C /* FoodShaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodShaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41A3A4B2231360C000A212C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A41A3A4D2231360C000A212C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A41A3A502231360C000A212C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A41A3A522231360D000A212C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A41A3A552231360D000A212C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A41A3A572231360D000A212C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A41A3A5C2231360E000A212C /* KitchenDeliceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitchenDeliceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41A3A5C2231360E000A212C /* FoodShakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodShakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41A3A602231360E000A212C /* KitchenDeliceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenDeliceTests.swift; sourceTree = "<group>"; };
 		A41A3A622231360E000A212C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A41A3A672231360E000A212C /* KitchenDeliceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitchenDeliceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41A3A672231360E000A212C /* FoodShakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodShakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41A3A6B2231360E000A212C /* KitchenDeliceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenDeliceUITests.swift; sourceTree = "<group>"; };
 		A41A3A6D2231360E000A212C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41A3A79223136DD000A212C /* DragNDropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragNDropViewController.swift; sourceTree = "<group>"; };
+		A41A3A7B223138AB000A212C /* DragNDropCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragNDropCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,9 @@
 		A41A3A3F2231360C000A212C = {
 			isa = PBXGroup;
 			children = (
-				A41A3A4A2231360C000A212C /* KitchenDelice */,
-				A41A3A5F2231360E000A212C /* KitchenDeliceTests */,
-				A41A3A6A2231360E000A212C /* KitchenDeliceUITests */,
+				A41A3A4A2231360C000A212C /* FoodShaker */,
+				A41A3A5F2231360E000A212C /* FoodShakerTests */,
+				A41A3A6A2231360E000A212C /* FoodShakerUITests */,
 				A41A3A492231360C000A212C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +91,14 @@
 		A41A3A492231360C000A212C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A41A3A482231360C000A212C /* KitchenDelice.app */,
-				A41A3A5C2231360E000A212C /* KitchenDeliceTests.xctest */,
-				A41A3A672231360E000A212C /* KitchenDeliceUITests.xctest */,
+				A41A3A482231360C000A212C /* FoodShaker.app */,
+				A41A3A5C2231360E000A212C /* FoodShakerTests.xctest */,
+				A41A3A672231360E000A212C /* FoodShakerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A41A3A4A2231360C000A212C /* KitchenDelice */ = {
+		A41A3A4A2231360C000A212C /* FoodShaker */ = {
 			isa = PBXGroup;
 			children = (
 				A41A3A4B2231360C000A212C /* AppDelegate.swift */,
@@ -103,34 +107,36 @@
 				A41A3A522231360D000A212C /* Assets.xcassets */,
 				A41A3A542231360D000A212C /* LaunchScreen.storyboard */,
 				A41A3A572231360D000A212C /* Info.plist */,
+				A41A3A79223136DD000A212C /* DragNDropViewController.swift */,
+				A41A3A7B223138AB000A212C /* DragNDropCollectionViewCell.swift */,
 			);
-			path = KitchenDelice;
+			path = FoodShaker;
 			sourceTree = "<group>";
 		};
-		A41A3A5F2231360E000A212C /* KitchenDeliceTests */ = {
+		A41A3A5F2231360E000A212C /* FoodShakerTests */ = {
 			isa = PBXGroup;
 			children = (
 				A41A3A602231360E000A212C /* KitchenDeliceTests.swift */,
 				A41A3A622231360E000A212C /* Info.plist */,
 			);
-			path = KitchenDeliceTests;
+			path = FoodShakerTests;
 			sourceTree = "<group>";
 		};
-		A41A3A6A2231360E000A212C /* KitchenDeliceUITests */ = {
+		A41A3A6A2231360E000A212C /* FoodShakerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				A41A3A6B2231360E000A212C /* KitchenDeliceUITests.swift */,
 				A41A3A6D2231360E000A212C /* Info.plist */,
 			);
-			path = KitchenDeliceUITests;
+			path = FoodShakerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A41A3A472231360C000A212C /* KitchenDelice */ = {
+		A41A3A472231360C000A212C /* FoodShaker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A41A3A702231360E000A212C /* Build configuration list for PBXNativeTarget "KitchenDelice" */;
+			buildConfigurationList = A41A3A702231360E000A212C /* Build configuration list for PBXNativeTarget "FoodShaker" */;
 			buildPhases = (
 				A41A3A442231360C000A212C /* Sources */,
 				A41A3A452231360C000A212C /* Frameworks */,
@@ -140,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = KitchenDelice;
+			name = FoodShaker;
 			productName = KitchenDelice;
-			productReference = A41A3A482231360C000A212C /* KitchenDelice.app */;
+			productReference = A41A3A482231360C000A212C /* FoodShaker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A41A3A5B2231360E000A212C /* KitchenDeliceTests */ = {
+		A41A3A5B2231360E000A212C /* FoodShakerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A41A3A732231360E000A212C /* Build configuration list for PBXNativeTarget "KitchenDeliceTests" */;
+			buildConfigurationList = A41A3A732231360E000A212C /* Build configuration list for PBXNativeTarget "FoodShakerTests" */;
 			buildPhases = (
 				A41A3A582231360E000A212C /* Sources */,
 				A41A3A592231360E000A212C /* Frameworks */,
@@ -158,14 +164,14 @@
 			dependencies = (
 				A41A3A5E2231360E000A212C /* PBXTargetDependency */,
 			);
-			name = KitchenDeliceTests;
+			name = FoodShakerTests;
 			productName = KitchenDeliceTests;
-			productReference = A41A3A5C2231360E000A212C /* KitchenDeliceTests.xctest */;
+			productReference = A41A3A5C2231360E000A212C /* FoodShakerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A41A3A662231360E000A212C /* KitchenDeliceUITests */ = {
+		A41A3A662231360E000A212C /* FoodShakerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A41A3A762231360E000A212C /* Build configuration list for PBXNativeTarget "KitchenDeliceUITests" */;
+			buildConfigurationList = A41A3A762231360E000A212C /* Build configuration list for PBXNativeTarget "FoodShakerUITests" */;
 			buildPhases = (
 				A41A3A632231360E000A212C /* Sources */,
 				A41A3A642231360E000A212C /* Frameworks */,
@@ -176,9 +182,9 @@
 			dependencies = (
 				A41A3A692231360E000A212C /* PBXTargetDependency */,
 			);
-			name = KitchenDeliceUITests;
+			name = FoodShakerUITests;
 			productName = KitchenDeliceUITests;
-			productReference = A41A3A672231360E000A212C /* KitchenDeliceUITests.xctest */;
+			productReference = A41A3A672231360E000A212C /* FoodShakerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A41A3A432231360C000A212C /* Build configuration list for PBXProject "KitchenDelice" */;
+			buildConfigurationList = A41A3A432231360C000A212C /* Build configuration list for PBXProject "FoodShaker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A41A3A472231360C000A212C /* KitchenDelice */,
-				A41A3A5B2231360E000A212C /* KitchenDeliceTests */,
-				A41A3A662231360E000A212C /* KitchenDeliceUITests */,
+				A41A3A472231360C000A212C /* FoodShaker */,
+				A41A3A5B2231360E000A212C /* FoodShakerTests */,
+				A41A3A662231360E000A212C /* FoodShakerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41A3A7C223138AB000A212C /* DragNDropCollectionViewCell.swift in Sources */,
 				A41A3A4E2231360C000A212C /* ViewController.swift in Sources */,
 				A41A3A4C2231360C000A212C /* AppDelegate.swift in Sources */,
+				A41A3A7A223136DD000A212C /* DragNDropViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		A41A3A5E2231360E000A212C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A41A3A472231360C000A212C /* KitchenDelice */;
+			target = A41A3A472231360C000A212C /* FoodShaker */;
 			targetProxy = A41A3A5D2231360E000A212C /* PBXContainerItemProxy */;
 		};
 		A41A3A692231360E000A212C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A41A3A472231360C000A212C /* KitchenDelice */;
+			target = A41A3A472231360C000A212C /* FoodShaker */;
 			targetProxy = A41A3A682231360E000A212C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,12 +442,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BHRZ37YZMU;
-				INFOPLIST_FILE = KitchenDelice/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FoodShaker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = developeracademy.KitchenDelice;
+				PRODUCT_BUNDLE_IDENTIFIER = developeracademy.FoodShaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,12 +460,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BHRZ37YZMU;
-				INFOPLIST_FILE = KitchenDelice/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FoodShaker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = developeracademy.KitchenDelice;
+				PRODUCT_BUNDLE_IDENTIFIER = developeracademy.FoodShaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,7 +489,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KitchenDelice.app/KitchenDelice";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodShaker.app/FoodShaker";
 			};
 			name = Debug;
 		};
@@ -502,7 +510,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KitchenDelice.app/KitchenDelice";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodShaker.app/FoodShaker";
 			};
 			name = Release;
 		};
@@ -549,7 +557,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A41A3A432231360C000A212C /* Build configuration list for PBXProject "KitchenDelice" */ = {
+		A41A3A432231360C000A212C /* Build configuration list for PBXProject "FoodShaker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A41A3A6E2231360E000A212C /* Debug */,
@@ -558,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A41A3A702231360E000A212C /* Build configuration list for PBXNativeTarget "KitchenDelice" */ = {
+		A41A3A702231360E000A212C /* Build configuration list for PBXNativeTarget "FoodShaker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A41A3A712231360E000A212C /* Debug */,
@@ -567,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A41A3A732231360E000A212C /* Build configuration list for PBXNativeTarget "KitchenDeliceTests" */ = {
+		A41A3A732231360E000A212C /* Build configuration list for PBXNativeTarget "FoodShakerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A41A3A742231360E000A212C /* Debug */,
@@ -576,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A41A3A762231360E000A212C /* Build configuration list for PBXNativeTarget "KitchenDeliceUITests" */ = {
+		A41A3A762231360E000A212C /* Build configuration list for PBXNativeTarget "FoodShakerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A41A3A772231360E000A212C /* Debug */,
